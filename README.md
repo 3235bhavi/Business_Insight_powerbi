@@ -1,15 +1,18 @@
 # Business Insights 360
 
-#📌 Project Overview
-AtliQ Hardware is a fast-growing global electronics company operating across 27 markets and serving 75+ customers worldwide. Despite strong revenue growth, the company was consistently reporting net losses — and leadership had no clear visibility into why.
-All decisions were being made using Excel sheets and gut feeling. This approach failed badly when AtliQ expanded into Latin America and incurred heavy losses — a market entry that could have been avoided with proper data analysis.
+📌 Project Overview
+
+AtliQ Hardware is a fast-growing global electronics company operating across 27 markets and serving 75+ customers worldwide. Despite strong revenue growth, the company was consistently reporting net losses and leadership had no clear visibility into why.
+
+All decisions were being made using Excel sheets and gut feeling. This approach failed badly when AtliQ expanded into Latin America and incurred heavy losses a market entry that could have been avoided with proper data analysis.
 The core business question I set out to answer:
 
-The company grew revenue by 373% year-over-year — so why is Net Profit still at -14.13%?
+The company grew revenue by 373% year-over-year so why is Net Profit still at -14.13%?
 
-To answer this, I built Business Insights 360 — a 6-view interactive Power BI dashboard that gives every department (Finance, Sales, Marketing, Supply Chain, Executive and Products) a single source of truth for their KPIs.
+To answer this, I built Business Insights 360 a 6-view interactive Power BI dashboard that gives every department (Finance, Sales, Marketing, Supply Chain, Executive and Products) a single source of truth for their KPIs.
 
 #🛠️ Tech Stack
+
 -Tool                   Purpose
 -Power BI               Desktop Dashboard design and visualisation
 -DAX                    KPI measures and calculated columns
