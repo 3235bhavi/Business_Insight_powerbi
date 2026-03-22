@@ -13,55 +13,53 @@ To answer this, I built Business Insights 360 a 6-view interactive Power BI dash
 
 #🛠️ Tech Stack
 
--Tool                   Purpose
--Power BI               Desktop Dashboard design and visualisation
--DAX                    KPI measures and calculated columns
--Power Query            Data cleaning and transformation
--MySQL                  Source data extraction
--Excel                  Secondary data source
--DAX Studio             Report performance optimisation
--Power BI Service       Publishing and auto-refresh 
+| Tool | Purpose |
+|---|---|
+| Power BI Desktop | Dashboard design and visualisation |
+| DAX | KPI measures and calculated columns |
+| Power Query | Data cleaning and transformation |
+| MySQL | Source data extraction |
+| Excel | Secondary data source |
+| DAX Studio | Report performance optimisation |
+| Power BI Service | Publishing and auto-refresh |
 
-#📂 Data Sources
+📂 Data Sources
 
--MySQL Database — Sales transactions, customer master, product master, market data
--Excel Files — Targets, operational expenses, market share data
--Total Records — 1 Million+ rows across fact and dimension tables
--Time Period — FY 2018 to 2022 (Estimated)
--Data Refresh — Automated monthly refresh on 5th working day via Power BI Service
+- **MySQL Database** — Sales transactions, customer master, product master, market data
+- **Excel Files** — Targets, operational expenses, market share data
+- **Total Records** — 1 Million+ rows across fact and dimension tables
+- **Time Period** — FY 2018 to 2022 (Estimated)
+- **Data Refresh** — Automated monthly refresh on 5th working day via Power BI Service
 
-#📐 Data Model
+📐 Data Model
 
-Built a Star Schema with:
+Built a **Star Schema** with:
+- Fact tables: fact_sales_monthly, fact_forecast_monthly
+- Dimension tables: dim_customer, dim_product, dim_market, dim_date
+- Connected MySQL and Excel sources using Power Query
+- Established relationships between all fact and dimension tables for accurate cross-filtering
 
--Fact tables: fact_sales_monthly, fact_forecast_monthly
--Dimension tables: dim_customer, dim_product, dim_market, dim_date
--Connected MySQL and Excel sources using Power Query
--Established relationships between all fact and dimension tables for accurate cross-filtering
 
+📊 Dashboard Views
 
-#📊 Dashboard Views
+🏠 Home Page
+Navigation hub with buttons linking to all 6 views. Shows data load date and currency information. Designed for ease of use across all departments.
 
-#🏠 Home Page
--Navigation hub with buttons linking to all 6 views. Shows data load date and currency information. Designed for ease of use across all departments.
+1️⃣ Finance View
+**Business Question:** Where is the money going — and why is profit negative despite strong revenue?
 
-#1️⃣ Finance View
--Business Question: Where is the money going — and why is profit negative despite strong revenue?
--KPIs Tracked:
+**KPIs Tracked:**
+- Net Sales, Gross Margin %, Net Profit %
+- Year-over-year and vs Target comparisons
 
--Net Sales, Gross Margin %, Net Profit %
--Year-over-year and vs Target comparisons
+**Key Charts:**
+- Full P&L Statement (Gross Sales → Deductions → Net Sales → COGS → GM → OpEx → Net Profit)
+- Net Sales performance trend over time
+- Top and bottom performing customers and products by Net Sales
+- Regional P&L breakdown (APAC, EU, NA, LATAM)
 
--Key Charts:
-
--Full P&L Statement (Gross Sales → Deductions → Net Sales → COGS → GM → OpEx → Net Profit)
--Net Sales performance trend over time
--Top and bottom performing customers and products by Net Sales
--Regional P&L breakdown (APAC, EU, NA, LATAM)
-
--Key Finding:
-
-Net Sales in 2021 were $823.85M — up 207% vs last year. But Net Profit was -6.63%. The P&L drill-down revealed that $448M was lost to Pre and Post Invoice Deductions before revenue was even recognised. Then Operational Expenses of $355M wiped out the remaining Gross Margin. The company wasn't failing to sell it was failing to retain what it sold.
+**Key Finding:**
+> Net Sales in 2021 were $823.85M — up 207% vs last year. But Net Profit was -6.63%. The P&L drill-down revealed that **$448M was lost to Pre and Post Invoice Deductions** before revenue was even recognised. Then **Operational Expenses of $355M** wiped out the remaining Gross Margin. The company wasn't failing to sell — it was failing to retain what it sold.
 
 
 #2️⃣ Sales View
