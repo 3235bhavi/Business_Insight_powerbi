@@ -190,18 +190,16 @@ Post Invoice Deduction % =
 
 | View | Preview |
 |---|---|
-| Home | ![Home](<img width="974" height="554" alt="Home" src="https://github.com/user-attachments/assets/e3027fd4-dc08-4cb2-b025-94eb074d2cb5" />
-) |
-| Finance | ![Finance](<img width="970" height="554" alt="Finance View" src="https://github.com/user-attachments/assets/e19428fd-9535-4829-9c57-a2e3d250c1fa" />
-) |
+| Home |<img width="974" height="554" alt="Home" src="https://github.com/user-attachments/assets/e3027fd4-dc08-4cb2-b025-94eb074d2cb5" />|
+| Finance |<img width="970" height="554" alt="Finance View" src="https://github.com/user-attachments/assets/e19428fd-9535-4829-9c57-a2e3d250c1fa" />|
 | Sales | ![Sales](<img width="993" height="563" alt="Sales View" src="https://github.com/user-attachments/assets/3cb2a304-e601-4053-a186-36b2a6264311" />
 ) |
-| Market | ![Market](<img width="993" height="563" alt="Sales View" src="https://github.com/user-attachments/assets/b5502bbf-b61e-477b-8388-5d49c40b84a6" />
-) |
-| Supply Chain | ![Supply Chain](<img width="993" height="563" alt="Sales View" src="https://github.com/user-attachments/assets/5a3725ce-eee9-4b22-bdb8-34a99c6482ab" />
-) |
-| Executive | ![Executive](<img width="993" height="563" alt="Sales View" src="https://github.com/user-attachments/assets/79835ec9-0bc2-4090-9305-efaf3101aa40" />
-) |
+| Market |<<img width="994" height="558" alt="Market View" src="https://github.com/user-attachments/assets/09e9054c-5931-483b-9239-0b385ab72ab2" />
+ />|
+| Supply Chain |<<img width="992" height="562" alt="Supply Chain View" src="https://github.com/user-attachments/assets/fe416762-eccd-49a4-9fa3-047d738ddc06" />
+/>|
+| Executive |<<img width="999" height="564" alt="Executive view" src="https://github.com/user-attachments/assets/35a16345-91ae-42a5-bf11-f0acd53f0c0d" />
+ /> |
 
 ---
 
@@ -222,7 +220,7 @@ Post Invoice Deduction % =
 
 📧 jainbhavi50@gmail.com
 🔗 [LinkedIn](https://linkedin.com/in/bhavi-j-7b7951250)
-💻 [GitHub Portfolio]([https://github.com/](https://github.com/3235bhavi/Business_Insight_powerbi))
+💻 [GitHub Portfolio]([https://github.com/3235bhavi/Business_Insight_powerbi])
 
 
 
